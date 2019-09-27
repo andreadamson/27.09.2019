@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/adamsonandreiktk/public_html/htmlcss/27.09.2019
+    - /bin/cp -R * $DEPLOYPATH
+ 
