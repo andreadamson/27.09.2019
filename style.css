@@ -117,7 +117,6 @@ main img {
 
 .container {
 	margin-top: 30px;
-	border:1px solid black;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -163,8 +162,5 @@ main img {
 .container p {
 	width:100%;
 }
- .column img {
 
- }
 }
-
