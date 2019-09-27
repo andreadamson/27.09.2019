@@ -147,3 +147,24 @@ footer img {
 	height:150px;
 	object-fit: cover;
 }
+
+@media only screen and (max-width: 768px) {
+
+main img {
+	height:150px;
+	width:200px;
+}
+
+.container{
+	display: block;
+	border: none;
+}
+
+.container p {
+	width:100%;
+}
+ .column img {
+
+ }
+}
+
