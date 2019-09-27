@@ -8,7 +8,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #263238;
 }
-
+/*top menu*/
 header {
 	font-size: 20px;
 	display:flex;
@@ -38,8 +38,10 @@ header {
 	margin: 30px 30px 0 30px;
 }
 
+/*Banner*/
+
 .banner {
-	position: absolute;
+	position: relative;
 	width:90%;
 	height:200px;
 	left:5%;
@@ -63,4 +65,39 @@ header {
 }
 .banner--text {
 	padding-left: 50px;
+}
+
+/*main*/
+
+main {
+	position: relative;
+	text-align: center;
+	width:90%;
+	left:5%;
+	justify-content: center;
+	margin-top:30px;
+}
+
+.main--text {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+main img {
+	display: block;
+	height:150px;
+	width:200px;
+}
+
+.desc {
+	text-align: left;
+	display: flex;
+	justify-content: ;
+	font-size: 10px;
 }
